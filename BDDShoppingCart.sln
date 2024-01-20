@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDDShoppingCart.Api", "BDDShoppingCart.Api\BDDShoppingCart.Api.csproj", "{B7D97EF6-607F-4BDA-837A-6AB115D2566C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDDShoppingCart.Specs", "BDDShoppingCart.Specs\BDDShoppingCart.Specs.csproj", "{5700721A-F4B4-423C-9FEF-DFD962556AF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7D97EF6-607F-4BDA-837A-6AB115D2566C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7D97EF6-607F-4BDA-837A-6AB115D2566C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7D97EF6-607F-4BDA-837A-6AB115D2566C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7D97EF6-607F-4BDA-837A-6AB115D2566C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5700721A-F4B4-423C-9FEF-DFD962556AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5700721A-F4B4-423C-9FEF-DFD962556AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5700721A-F4B4-423C-9FEF-DFD962556AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5700721A-F4B4-423C-9FEF-DFD962556AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
