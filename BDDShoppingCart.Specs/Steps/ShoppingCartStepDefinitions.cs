@@ -82,20 +82,7 @@ public class ShoppingCartStepDefinitions
         shoppingCart.ShoppingCartItems.Should().Contain(x => x.ProductId == _addedProduct.Id);
     }
     
-    [When(@"I add a product which Product code is ""(.*)"" to the shopping cart")]
-    public async Task WhenIAddAProductWhichProductCodeIsToTheShoppingCart(string productCode)
-    {
-        var product = await _httpClient.GetFromJsonAsync<Product>($"api/products/{productCode}");
-
-        product.Should().NotBeNull();
-
-        var cartResponse = await _httpClient.PostAsync($"/api/shoppingcarts/{_shoppingCart.Id}/products/{product?.Id}/add/1", null);
-
-        cartResponse.Should().NotBeNull();
-        cartResponse.IsSuccessStatusCode.Should().BeTrue();
-    }
-
-    [When(@"I add (.*) item\(s\) with the product code ""(.*)"" to my shopping cart\.")]
+    [When(@"I add (.*) item\(s\) with the product code ""(.*)"" to my shopping cart.")]
     public async Task WhenIAddItemSWithTheProductCodeToMyShoppingCart(int quantity, string productCode)
     {
         var product = await _httpClient.GetFromJsonAsync<Product>($"api/products/{productCode}");
