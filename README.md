@@ -2,6 +2,8 @@
 
 The example of the shopping cart API showed how BDD and integration testing using net8 and SpecFlow.
 
+The related blog post can be found https://medium.com/@mesutatasoy/beyond-code-a-practical-journey-through-bdd-and-integration-testing-in-net-notepad-series-6-c5e2e3ec1925
+
 ## Project Setup
 
 Clone the Repository:
